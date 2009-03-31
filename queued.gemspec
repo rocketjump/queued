@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nathaniel Bibler"]
-  s.cert_chain = ["/Users/nathan/.gem/gem-public_cert.pem"]
   s.date = %q{2009-03-31}
   s.description = %q{}
   s.email = ["gem@nathanielbibler.com"]
@@ -18,7 +17,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{queued}
   s.rubygems_version = %q{1.3.1}
-  s.signing_key = %q{/Users/nathan/.gem/gem-private_key.pem}
   s.summary = %q{}
   s.test_files = ["test/test_helper.rb", "test/test_queued.rb"]
 
