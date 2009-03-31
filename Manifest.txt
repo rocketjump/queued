@@ -1,9 +1,15 @@
 History.txt
 Manifest.txt
-PostInstall.txt
 README.rdoc
 Rakefile
 lib/queued.rb
+lib/queued/message.rb
+lib/queued/queue.rb
+lib/queued/service.rb
+lib/queued/services/amazon_sqs.rb
+lib/queued/services/amazon_sqs/message.rb
+lib/queued/services/amazon_sqs/queue.rb
+lib/queued/services/amazon_sqs/service.rb
 script/console
 script/destroy
 script/generate
