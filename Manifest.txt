@@ -2,6 +2,7 @@ History.txt
 Manifest.txt
 README.rdoc
 Rakefile
+lib/core_extensions/extract_options.rb
 lib/queued.rb
 lib/queued/message.rb
 lib/queued/queue.rb
@@ -10,6 +11,11 @@ lib/queued/services/amazon_sqs.rb
 lib/queued/services/amazon_sqs/message.rb
 lib/queued/services/amazon_sqs/queue.rb
 lib/queued/services/amazon_sqs/service.rb
+lib/queued/services/test.rb
+lib/queued/services/test/message.rb
+lib/queued/services/test/queue.rb
+lib/queued/services/test/service.rb
+queued.gemspec
 script/console
 script/destroy
 script/generate

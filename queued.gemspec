@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{queued}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nathaniel Bibler"]
-  s.date = %q{2009-03-31}
+  s.date = %q{2009-04-01}
   s.description = %q{}
   s.email = ["gem@nathanielbibler.com"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.rdoc"]
-  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/queued.rb", "lib/queued/message.rb", "lib/queued/queue.rb", "lib/queued/service.rb", "lib/queued/services/amazon_sqs.rb", "lib/queued/services/amazon_sqs/message.rb", "lib/queued/services/amazon_sqs/queue.rb", "lib/queued/services/amazon_sqs/service.rb", "script/console", "script/destroy", "script/generate", "test/test_helper.rb", "test/test_queued.rb"]
+  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/core_extensions/extract_options.rb", "lib/queued.rb", "lib/queued/message.rb", "lib/queued/queue.rb", "lib/queued/service.rb", "lib/queued/services/amazon_sqs.rb", "lib/queued/services/amazon_sqs/message.rb", "lib/queued/services/amazon_sqs/queue.rb", "lib/queued/services/amazon_sqs/service.rb", "lib/queued/services/test.rb", "lib/queued/services/test/message.rb", "lib/queued/services/test/queue.rb", "lib/queued/services/test/service.rb", "queued.gemspec", "script/console", "script/destroy", "script/generate", "test/test_helper.rb", "test/test_queued.rb"]
   s.has_rdoc = true
   s.homepage = %q{Abstraction layer for Ruby message queues.}
   s.rdoc_options = ["--main", "README.rdoc"]

@@ -1,3 +1,9 @@
+== 0.0.2 2009-04-01
+
+* 2 major enhancements:
+  * Added a 'test' service
+  * Added Array#extract_options! core extension for non-Rails apps
+
 == 0.0.1 2009-03-31
 
 * 1 major enhancement:
