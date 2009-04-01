@@ -42,7 +42,7 @@ module Queued
     end
     
     ##
-    # Permanently destroyes (deletes) the queue from its +Service+.
+    # Permanently destroys (deletes) the queue from its +Service+.
     # 
     def destroy
       raise(NotImplementedError, "You must override the destroy method for #{self.class.name}")
