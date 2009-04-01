@@ -1,3 +1,10 @@
+== 0.0.3 2009-04-01
+
+* 1 minor enhancement:
+  * Test messages can now be deleted
+* 1 bug fix
+  * Added missing requirement for extract_options core extension
+
 == 0.0.2 2009-04-01
 
 * 2 major enhancements:
