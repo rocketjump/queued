@@ -11,7 +11,7 @@ module Queued
         end
         
         def delete
-          true
+          @queue._sent_messages.delete(self)
         end
         
       end
