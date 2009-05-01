@@ -7,7 +7,7 @@ require 'queued/queue'
 require 'queued/service'
 
 module Queued
-  VERSION = '0.0.3'
+  VERSION = '0.0.4'
   
   @@service = :amazon_sqs
   

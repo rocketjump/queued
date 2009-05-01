@@ -1,3 +1,9 @@
+== 0.0.4 2009-05-01
+
+* 2 bug fixes
+  * Fixed a typo in the AmazonSQS queue
+  * Forced SQS messages to always override locally defined message id and body.
+
 == 0.0.3 2009-04-01
 
 * 1 minor enhancement:
