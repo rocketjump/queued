@@ -52,7 +52,7 @@ module Queued
         # 
         def first
           message = @queue.receive
-          Queued::Services::AmazonSqs::Message.new(self, nil, nil, messge) if message
+          Queued::Services::AmazonSqs::Message.new(self, nil, nil, message) if message
         end
         
         ##

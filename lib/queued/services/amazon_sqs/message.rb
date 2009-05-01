@@ -8,10 +8,9 @@ module Queued
         
         def initialize(queue, id = nil, body = nil, sqs_message = nil)
           super(queue, id, body)
-          if sqs_message
-            @id           ||= sqs_message.id
-            @body         ||= sqs_message.body
-            @sqs_message  = sqs_message
+          if @sqs_message = sqs_message
+            @id           = sqs_message.id
+            self.body     = sqs_message.body
           end
         end
         
